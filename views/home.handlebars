@@ -1,0 +1,14 @@
+<div class="container">
+
+    {{#each produtos}}
+    <div>
+        <a href="/{{this.id}}">CLIQUE EM MIM</a>
+        <h1>{{this.nome}}</h1>
+        <img src="{{this.imagem}}" alt="">
+        <p>Marca: {{this.marca}}</p>
+        <p>Descrição: {{this.descrição}}</p>
+    </div>
+
+    {{/each}}
+
+</div>

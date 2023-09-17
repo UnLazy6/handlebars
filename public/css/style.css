@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-align: center;
+}
+
+
+body{
+    background-color: rgb(235, 251, 251);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    gap: 2rem;
+}
+
+.container div{
+    padding: 1rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: rgb(198, 254, 254);
+    border-radius: 8px;
+}
+
+.container div img{
+    height: 15rem;
+    width: auto;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
